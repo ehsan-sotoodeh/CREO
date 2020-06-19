@@ -15,3 +15,10 @@ body{
     color:#DF4F57;
     display: block;
 }
+.center {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+.active{
+    
+}
