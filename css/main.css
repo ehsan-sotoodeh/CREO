@@ -1,8 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+*{
+    color: #fff !important;
+}
+@media (max-width: 450px){
+
+}
+@media (min-width:451px) and (max-width:540){
+
+}
+@media (min-width:541px) and (max-width:768){
+    
+}
+@media (min-width:769px) and (max-width:980){
+    
+}
+@media (min-width:981px) and (max-width:1200){
+    
+}
+@media (min-width:1201px){
+    
+}
+
 body{
     margin: 0;
     padding: 0;
-    color: #fff;
     font-family: 'Open Sans', sans-serif;
 }
 .header-page{
@@ -19,6 +40,6 @@ body{
     margin-left: 0 auto;
     margin-right: 0 auto;
 }
-.active{
-    
+.activated{
+
 }
