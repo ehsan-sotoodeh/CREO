@@ -43,6 +43,9 @@
         text-align: center;
         font-size: 35px !important;
     }
+    .top-ribbon{
+        display: none;
+    }
 }
 @media (min-width:1201px){
     
@@ -80,6 +83,15 @@ body{
     margin-left: 0 auto;
     margin-right: 0 auto;
 }
-.activated{
+.nav-item :hover {
+    border-top: 3px solid #DF4F57;
+
+}
+
+.top-ribbon{
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+    margin-top: 5px;
 
 }
