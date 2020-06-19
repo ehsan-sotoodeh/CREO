@@ -1,24 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
-*{
-    color: #fff !important;
-}
+
 @media (max-width: 450px){
 
 }
-@media (min-width:451px) and (max-width:540){
+@media (max-width:451px){
 
 }
-@media (min-width:541px) and (max-width:768){
+@media (max-width:541px){
     
 }
-@media (min-width:769px) and (max-width:980){
-    
+@media (max-width:770px){
+
 }
-@media (min-width:981px) and (max-width:1200){
-    
+@media (max-width:990px){
+    .navbar{
+        float: left !important;
+    }
+    .navbar-toggler i {
+        font-size: 2rem;
+    }
+    .header-page{
+        padding-top: 10px !important;
+    }
 }
 @media (min-width:1201px){
     
+}
+*{
+    color: #fff !important;
 }
 
 body{
